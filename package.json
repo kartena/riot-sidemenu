@@ -1,0 +1,66 @@
+{
+  "name": "riotgear-sidemenu",
+  "version": "1.0.0",
+  "description": "Off-canvas menu component",
+  "main": "dist/rg-sidemenu.min.js",
+  "scripts": {
+    "lint": "jshint . --exclude-path=.gitignore",
+    "riot": "riot src dist/rg-sidemenu.js",
+    "postriot": "riot demo",
+    "uglify": "uglifyjs --output dist/rg-sidemenu.min.js -- dist/rg-sidemenu.js",
+    "build": "npm run riot && npm run uglify",
+    "test": "istanbul cover -- _mocha --timeout=10000"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiotGear/rg-sidemenu.git"
+  },
+  "keywords": [
+    "riotjs",
+    "riot",
+    "component",
+    "sidemenu"
+  ],
+  "author": {
+    "name": "Gregory Pratt"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RiotGear/rg-sidemenu/issues"
+  },
+  "homepage": "https://github.com/RiotGear/rg-sidemenu",
+  "devDependencies": {
+    "babel": "~5.4.3",
+    "chai": "~2.2.0",
+    "istanbul": "~0.3.13",
+    "jshint": "~2.7.0",
+    "mocha": "~2.2.4",
+    "riot": "~2.0.15",
+    "uglify-js": "~2.4.21"
+  },
+  "gitHead": "5d1ecc59502b4d4929ea8215b86321951faed058",
+  "_id": "riotgear-sidemenu@1.0.0",
+  "_shasum": "dda35c35e2e36ba7da88ef2e0394f6d7a86402a9",
+  "_from": "riotgear-sidemenu@1.0.0",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "grumpywizards",
+    "email": "gregory.pratt@me.com"
+  },
+  "maintainers": [
+    {
+      "name": "grumpywizards",
+      "email": "gregory.pratt@me.com"
+    }
+  ],
+  "dist": {
+    "shasum": "dda35c35e2e36ba7da88ef2e0394f6d7a86402a9",
+    "tarball": "http://registry.npmjs.org/riotgear-sidemenu/-/riotgear-sidemenu-1.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/riotgear-sidemenu/-/riotgear-sidemenu-1.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
