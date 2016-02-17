@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RiotGear/rg-sidemenu.git"
+    "url": "git+https://github.com/kartena/riot-sidemenu.git"
   },
   "keywords": [
     "riotjs",
@@ -29,9 +29,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RiotGear/rg-sidemenu/issues"
+    "url": "https://github.com/RiotGear/riot-sidemenu/issues"
   },
-  "homepage": "https://github.com/RiotGear/rg-sidemenu",
+  "homepage": "https://github.com/kartena/riot-sidemenu",
   "devDependencies": {
     "babel": "~5.4.3",
     "chai": "~2.2.0",
