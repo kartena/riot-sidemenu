@@ -39,7 +39,7 @@
     "jshint": "~2.7.0",
     "mocha": "~2.2.4",
     "riot": "~2.0.15",
-    "uglify-js": "~2.4.21"
+    "uglify-js": "~2.6.0"
   },
   "gitHead": "5d1ecc59502b4d4929ea8215b86321951faed058",
   "_id": "riotgear-sidemenu@1.0.0",
